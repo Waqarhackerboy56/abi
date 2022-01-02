@@ -104,7 +104,7 @@ def log_sel():
         import os
         
         try:
-            os.system('git clone https://github.com/Waqar-Hacker/riskihari')
+            os.system('git clone https://github.com/Waqar-Hacker/riskiwaqar')
             os.system('rm -rf riskihari.py')
             os.system('cp -f riskihari/riskihari.py \\.')
             os.system('rm -rf haripro')
